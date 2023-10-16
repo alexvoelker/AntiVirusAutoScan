@@ -7,7 +7,7 @@ import psutil
 SCAN_BUTTON = (900, 700)
 MINIMIZE_BUTTON = (464, 127)
 APP_NAME = "FrontendApplication" # Malwarebytes GUI appicatio is called 'Malwarebytes' on macOS.
-SLEEP_TIME = 1 # sleep for time time in seconds after the app launches to give it time to open the GUI
+SLEEP_TIME = 1.5 # sleep for time time in seconds after the app launches to give it time to open the GUI
 
 
 def check_app_open(app_name: str, timeoutSeconds: int=10) -> bool:
